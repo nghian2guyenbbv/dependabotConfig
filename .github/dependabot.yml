@@ -14,7 +14,6 @@ updates:
     target-branch: "main"
     commit-message:
       prefix: "Dependabot update"
-      include: "Scope"
     groups:
       angular:
         patterns:
