@@ -6,11 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/sag" # Location of package manifests
+    directory: "/sag*" # Location of package manifests
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "14:23"
+      interval: "daily"
+      time: "15:08"
       timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
