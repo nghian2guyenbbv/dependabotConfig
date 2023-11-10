@@ -9,6 +9,22 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "02:08"
+      timezone: "Asia/Bangkok, Hanoi, Jakarta"
     target-branch: "main"
+    commit-message:
+      prefix: "Dependabot update"
+      include: "Scope"
+    groups:
+      angular:
+        patterns:
+        - "@angular*"
+        update-types:
+        - "minor"
+        - "patch"
+    ignore:
+      - dependency-name: "@angular*"
+        update-types: ["version-update:semver-major"]
+    
       
       
