@@ -27,13 +27,6 @@ updates:
     ignore:
       - dependency-name: "@angular*"
         update-types: ["version-update:semver-major"]
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    # Check for updates at 0:00 every Monday - UTC
-    schedule:
-      interval: "weekly"
-      time: "00:00"
-    target-branch: "develop"
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/sag-rest" # Location of package manifests
     schedule:
@@ -78,13 +71,6 @@ updates:
     ignore:
       - dependency-name: "@angular*"
         update-types: ["version-update:semver-major"]
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    # Check for updates at 0:00 every Monday - UTC
-    schedule:
-      interval: "weekly"
-      time: "00:00"
-    target-branch: "develop"
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/sag-oauth2" # Location of package manifests
     schedule:
@@ -112,6 +98,7 @@ updates:
     # Check for updates at 0:00 every Monday - UTC
     schedule:
       interval: "weekly"
+      day: "monday"
       time: "00:00"
     target-branch: "develop"
     
