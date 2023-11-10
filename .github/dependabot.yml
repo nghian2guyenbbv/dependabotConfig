@@ -9,7 +9,7 @@ updates:
     directory: "/dependabotpro" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "14:12"
+      time: "14:23"
       timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
