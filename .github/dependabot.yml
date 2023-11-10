@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily"
       time: "02:08"
-      timezone: "Asia/Hanoi"
+      timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
       prefix: "Dependabot update"
