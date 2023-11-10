@@ -8,12 +8,15 @@ updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/dependabotpro" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
       time: "14:23"
       timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
       prefix: "Dependabot update"
+    pull-request-branch-name:
+      separator: "-"
     groups:
       angular:
         patterns:
@@ -24,6 +27,7 @@ updates:
     ignore:
       - dependency-name: "@angular*"
         update-types: ["version-update:semver-major"]
+   
     
       
       
