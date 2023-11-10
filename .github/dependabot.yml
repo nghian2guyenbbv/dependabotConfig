@@ -6,10 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/sag*" # Location of package manifests
+    directory: "/sag-dependabotpro" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "15:14"
+      time: "15:18"
       timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
