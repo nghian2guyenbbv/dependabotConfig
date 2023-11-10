@@ -9,7 +9,7 @@ updates:
     directory: "/sag*" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "15:12"
+      time: "15:14"
       timezone: "Asia/Ho_Chi_Minh"
     target-branch: "main"
     commit-message:
